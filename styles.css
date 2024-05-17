@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+        font-family: "Spectral", serif;
+        font-weight: 700;
+        font-style: normal;
+      }
+
+      .all-content {
+        background-color: beige;
+      }
+
+    html::-webkit-scrollbar-track{
+        background: transparent;
+
+    }
+
+    html::-webkit-scrollbar-thumb{
+        background: darksalmon;
+        border-radius: 10px;
+    }
+ 
+    html::-webkit-scrollbar{
+        width: 10px;
+
+    }
+    /*navbar start*/
+    #navbar{
+        background-color: mistyrose;
+    }
+    #logo img{
+        border-radius: 10px;
+        width: 160px;
+        margin-left: 40px;
+    }
+    .navbar-nav{
+        margin-left: 50px;
+    }
+    .nav-item .nav-link{
+        color:darksalmon;
+        margin-left: px;
+        font-weight: bold;
+        transition: 0.5s;
+        
+    }
+    .nav-item .nav-link:hover {
+        background:#f7f5f2;
+        border-radius: 5px;
+        color: darksalmon;
+    }
+    .navbar.light .navbar.nav .nav-link:active {
+        color: black;
+    }
+    
+    /*navbar end*/
+
+     body {
+        line-height: 1.8;
+        font-size: 15px;
+
+     }
+
+     h1,h2,h3,h4,h5,h6 {
+        font-weight:700;
+        font: bold;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+        color: lightcoral;
+     }
+
+     small {
+        font-size: 12px;
+        letter-spacing: 2px;
+        font-weight: 700;
+     }
+
+     section {
+        padding-top: 100px;
+        padding-bottom: 100px;
+
+     }
+
+     #home {
+        background: linear-gradient(106.5deg, rgba(255, 215, 185, 0.91) 23%, rgba(223, 159, 247, 0.8) 93%), url(images/cutie\ logo.jpg);
+        min-height: 100vh;
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+        display: flex;
+        align-items: center;
+     
+     }
+
+     #home h1 {
+        font-weight: 700;
+        margin-left: 10px;
+
+     }
+
+     #home p {
+        max-width: 550px;
+        margin: auto;
+     }
+    
+    
+
+
+     
